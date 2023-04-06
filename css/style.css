@@ -792,14 +792,16 @@ a{
 }
 
 #footer .row .footer-box .social_icon a{
+    display: inline-block;
     margin-right: 10px;
     color: var(--primary-color);
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border: 1px solid var(--primary-color);
     border-radius: 50%;
-    font-size: 14px;
-    padding: 8px 8px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
     transition: 0.5s;
 }
 #footer .row .footer-box .social_icon a:hover{
